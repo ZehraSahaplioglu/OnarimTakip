@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RPR_Cihaz_OnrMasrafveSure"
+    android:orientation="vertical"
+    android:background="@drawable/onr11">
+
+    <include layout="@layout/baslik"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <EditText
+            android:id="@+id/cihaz_rapor_edit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_shape"
+            android:dropDownVerticalOffset="100dp"
+            android:scrollbarSize="200sp"
+            android:hint="Envanter No Girin:"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/ara_Button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:background="@drawable/search_24"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chzOnrMsrfText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/text_view_shape"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/chzOnrSureText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/text_view_shape"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chz_onr_msrfvesure">
+
+    </com.github.mikephil.charting.charts.BarChart>
+
+</LinearLayout>

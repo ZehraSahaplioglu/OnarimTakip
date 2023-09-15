@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnarimTakip"
+        tools:targetApi="31">
+        <activity
+            android:name=".RPR_YedekParca"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_Cihaz_OnrMasrafveSure"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_Ariza_Onr_Sure"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_Ariza_Onr_Msrf"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_Ariza_Toplam_Onr_Sayisi"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_Genel_Ort_Onr_Suresi"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_Genel_Ort_Onr_Masrafi"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_MarkaModelOnarimSayiRaporu"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_MarkaRaporu"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_MarkaModelRaporu"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_IsyeriOnarimRapor"
+            android:exported="false" />
+        <activity
+            android:name=".RPR_IsyeriCihazRaporu"
+            android:exported="false" />
+        <activity
+            android:name=".YedekParcaIslemleri"
+            android:exported="false" />
+        <activity
+            android:name=".YeniTamirGir"
+            android:exported="false" />
+        <activity
+            android:name=".CihazBilgiOzeti"
+            android:exported="false" />
+        <activity
+            android:name=".TipTanimlama"
+            android:exported="false" />
+        <activity
+            android:name=".GuncelleKayit"
+            android:exported="false" />
+        <activity
+            android:name=".ModelTanimlama"
+            android:exported="false" />
+        <activity
+            android:name=".MarkaTanimlama"
+            android:exported="false" />
+        <activity
+            android:name=".CihaziSil"
+            android:exported="false" />
+        <activity
+            android:name=".CihazGuncelle"
+            android:exported="false" />
+        <activity
+            android:name=".YeniCihazKayit"
+            android:exported="false" />
+        <activity
+            android:name=".IsyeriIslemleri"
+            android:exported="false" />
+        <activity
+            android:name=".Raporlar"
+            android:exported="false" />
+        <activity
+            android:name=".OnarimIslemleri"
+            android:exported="false" />
+        <activity
+            android:name=".CihazKayit"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

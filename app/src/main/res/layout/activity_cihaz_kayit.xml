@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CihazKayit"
+    android:orientation="vertical"
+    android:background="@drawable/onr11">
+
+    <include layout="@layout/baslik"/>
+
+    <Button
+        android:id="@+id/cihaz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="30dp"
+        android:text="Yeni Cihaz Kayıt"
+        android:textColor="@color/white"
+        android:backgroundTint="#039BE5"
+        android:textSize="30sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/cihaz2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Cihaz Güncelle"
+        android:backgroundTint="#039BE5"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/cihaz3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Cihazı Sil"
+        android:backgroundTint="#039BE5"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+
+</LinearLayout>

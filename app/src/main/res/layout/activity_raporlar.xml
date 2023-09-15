@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Raporlar"
+    android:orientation="vertical"
+    android:background="@drawable/onr11">
+
+    <include layout="@layout/baslik"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ort_onr_masrafi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ortalama Onarim Masrafi (Genel)"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/ort_onr_suresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ortalama Onarim Süresi (Genel)"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/chz_tum_rapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cihaz için yapılan Tüm Raporlar"
+                android:backgroundTint="#039BE5"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/arizatoplam_onarim_sayisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arızaya göre Toplam Onarim Sayisi"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/ariza_onr_masraf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ortalama Onarım Masrafı (Arızaya göre)"
+                android:textSize="20dp"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/ariza_onr_sure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ortalama Onarım Süresi (Arızaya göre)"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/marka_rapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Markaya göre raporlar"
+                android:backgroundTint="#039BE5"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/isyeri_rapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İşyerine göre rapor"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/isyerionarim_rapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İşyerine göre onarım raporlar"
+                android:backgroundTint="#0380BC"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/toplam_yedekparca_rapor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yedek Parça Rapor"
+                android:backgroundTint="#039BE5"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

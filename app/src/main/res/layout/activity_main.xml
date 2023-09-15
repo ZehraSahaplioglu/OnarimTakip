@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/onr11">
+
+    <include layout="@layout/baslik"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+                android:text="Cihaz İşlemleri"
+                android:textColor="@color/white"
+                android:backgroundTint="#039BE5"
+                android:textSize="30sp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Onarım İşlemleri"
+                android:backgroundTint="#039BE5"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Raporlar"
+                android:backgroundTint="#039BE5"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İşyeri İşlemleri"
+                android:backgroundTint="#039BE5"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yedek Parça İşlemleri"
+                android:backgroundTint="#039BE5"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/layout_uyari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

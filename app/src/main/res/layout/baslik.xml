@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mavi22">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_home_24"
+            android:layout_centerVertical="true"
+            android:onClick="homeClick"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/homeIcon"
+            android:text="Onarım Takip"
+            android:textColor="@color/krem"
+            android:textSize="20sp"
+
+            android:layout_centerVertical="true"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/sezonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text=":)"
+            android:textColor="@color/krem"
+            android:textSize="25sp">
+
+
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

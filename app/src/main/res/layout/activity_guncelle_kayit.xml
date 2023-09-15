@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YeniCihazKayit"
+    android:orientation="vertical"
+    android:background="@drawable/onr11">
+
+    <include layout="@layout/baslik"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/envno_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:textColor="@color/black"
+                android:hint=" Envanter No Giriniz:"
+                android:textSize="30dp"
+                android:textAlignment="center">
+
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Spinner
+                    android:id="@+id/spn_markaid"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:dropDownVerticalOffset="100dp"
+                    android:scrollbarSize="200sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/add_circle_24"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Spinner
+                    android:id="@+id/spn_modelid"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:dropDownVerticalOffset="100dp"
+                    android:scrollbarSize="200sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/add_circle_24"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Spinner
+                    android:id="@+id/spn_isyeriid"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:dropDownVerticalOffset="100dp"
+                    android:scrollbarSize="200sp"
+                    android:textAlignment="center" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/add_circle_24"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Spinner
+                    android:id="@+id/spn_surumid"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:dropDownVerticalOffset="100dp"
+                    android:scrollbarSize="200sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/add_circle_24"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <Spinner
+                    android:id="@+id/spn_ekkranid"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:dropDownVerticalOffset="100dp"
+                    android:scrollbarSize="200sp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/add_circle_24"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/imeino_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:background="@drawable/edit_text_shape"
+                android:textColor="@color/black"
+                android:hint=" İmei No Giriniz:"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/gsmno_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:background="@drawable/edit_text_shape"
+                android:textColor="@color/black"
+                android:hint=" GSMNo Giriniz:"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/aciklama_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:background="@drawable/edit_text_shape"
+                android:textColor="@color/black"
+                android:hint=" Açıklama Giriniz:"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/guncelle_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Güncelle"
+                android:backgroundTint="#039BE5"
+                android:textSize="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="25dp">
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

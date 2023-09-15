@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RPR_Ariza_Toplam_Onr_Sayisi"
+    android:orientation="vertical"
+    android:background="@drawable/onr11">
+
+    <include layout="@layout/baslik"/>
+
+    <TextView
+        android:id="@+id/TplOnrSayisiTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/text_view_shape"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ariza_tplonrsayi">
+
+    </com.github.mikephil.charting.charts.BarChart>
+
+</LinearLayout>

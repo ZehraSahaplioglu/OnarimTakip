@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/drobdownlayout"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/drtextview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Deneme"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:background="@drawable/arkaplanspinner2">
+    </TextView>
+
+
+
+</LinearLayout>
